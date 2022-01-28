@@ -1,3 +1,20 @@
+variable "tenancy_ocid" {
+}
+
+variable "user_ocid" {
+}
+
+variable "fingerprint" {
+}
+
+variable "private_key_path" {
+}
+
+variable "compartment_ocid" {
+}
+
+variable "region" {
+}
 
 data "oci_objectstorage_namespace" "test_namespace" {
 

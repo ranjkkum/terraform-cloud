@@ -10,8 +10,5 @@ resource "oci_objectstorage_bucket" "bucket2" {
   name           = "buck2"
   access_type    = "NoPublicAccess"
   auto_tiering   = "Disabled"
-  depends_on = [
-    oci_objectstorage_bucket.bucket1
-  ]
 }
 
